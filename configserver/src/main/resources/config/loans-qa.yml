@@ -1,0 +1,10 @@
+build:
+  version: "2.0"
+loans:
+  message: "Welcome to CelikBank Loans Service - QA Environment"
+  contactDetails:
+    name: "Ilayda Celik - QA Lead"
+    email: "qalead@celikbank.com"
+  onCallSupport:
+    - (530) 911-8587
+    - (520) 871-8387

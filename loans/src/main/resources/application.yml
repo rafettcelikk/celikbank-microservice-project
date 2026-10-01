@@ -1,0 +1,52 @@
+server:
+  port: 9000
+
+spring:
+  application:
+    name: "loans"
+  profiles:
+    active: "prod"
+  datasource:
+    url: jdbc:mysql://localhost:3308/loansdb
+    username: root
+    password: root
+  jpa:
+    show-sql: true
+  sql:
+    init:
+      mode: always
+  config:
+    import: "optional:configserver:http://localhost:8071"
+  cloud:
+    kubernetes:
+      discovery:
+        all-namespaces: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  health:
+    readiness-state:
+      enabled: true
+    liveness-state:
+      enabled: true
+  endpoint:
+    shutdown:
+      enabled: true
+    health:
+      probes:
+        enabled: true
+  metrics:
+    tags:
+      application: ${spring.application.name}
+info:
+  app:
+    name: "loans"
+    description: "Celikbank Loans Service"
+    version: "1.0.0"
+logging:
+  level:
+    com:
+      rafetcelik:
+        loans: DEBUG

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="gatewayserver" />
+        <module name="configserver" />
+        <module name="message" />
+      </profile>
+      <profile name="Annotation profile for Loans" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.42/lombok-1.18.42.jar" />
+        </processorPath>
+        <module name="cards" />
+        <module name="accounts" />
+        <module name="common" />
+        <module name="loans" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="eurekaserver" target="25" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="accounts" options="" />
+      <module name="cards" options="" />
+      <module name="celik-bom" options="" />
+      <module name="common" options="" />
+      <module name="configserver" options="" />
+      <module name="eurekaserver" options="-parameters" />
+      <module name="gatewayserver" options="" />
+      <module name="loans" options="" />
+      <module name="message" options="" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,10 @@
+build:
+  version: "3.0"
+cards:
+  message: "Welcome to CelikBank Cards Service"
+  contactDetails:
+    name: "Rafet Celik - Developer"
+    email: "developer@celikbank.com"
+  onCallSupport:
+    - (537) 971-8387
+    - (561) 971-8387

@@ -1,0 +1,10 @@
+build:
+  version: "1.0"
+cards:
+  message: "Welcome to CelikBank Cards Service - Production Environment"
+  contactDetails:
+    name: "Ahmet Celik - Production Lead"
+    email: "prodlead@celikbank.com"
+  onCallSupport:
+    - (530) 911-8587
+    - (520) 871-8387

@@ -1,0 +1,10 @@
+build:
+  version: "2.0"
+accounts:
+  message: "Welcome to CelikBank Accounts Service - QA Environment"
+  contactDetails:
+    name: "Ilayda Celik - QA Lead"
+    email: "ilayda@celikbank.com"
+  onCallSupport:
+    -(530) 911-8587
+    -(520) 871-8387

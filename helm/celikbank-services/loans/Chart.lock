@@ -1,0 +1,6 @@
+dependencies:
+- name: celikbank-common
+  repository: file://../../celikbank-common
+  version: 0.1.0
+digest: sha256:9b80aaa7efda6d5b2f3e3339395fa3bb7bfd2f25dba27fdc1d50cdbbc99174e7
+generated: "2026-09-11T18:27:57.2836965+03:00"

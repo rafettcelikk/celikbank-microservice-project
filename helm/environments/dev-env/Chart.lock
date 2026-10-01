@@ -1,0 +1,24 @@
+dependencies:
+- name: celikbank-common
+  repository: file://../../celikbank-common
+  version: 0.1.0
+- name: configserver
+  repository: file://../../celikbank-services/configserver
+  version: 0.1.0
+- name: accounts
+  repository: file://../../celikbank-services/accounts
+  version: 0.1.0
+- name: cards
+  repository: file://../../celikbank-services/cards
+  version: 0.1.0
+- name: loans
+  repository: file://../../celikbank-services/loans
+  version: 0.1.0
+- name: gatewayserver
+  repository: file://../../celikbank-services/gatewayserver
+  version: 0.1.0
+- name: message
+  repository: file://../../celikbank-services/message
+  version: 0.1.0
+digest: sha256:48f7f9a4844551fd3e81337f2a3d18f405d4dd46fc9854bfa829f127b5c7dddd
+generated: "2026-09-20T18:17:33.970184+03:00"

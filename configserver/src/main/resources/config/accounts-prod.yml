@@ -1,0 +1,10 @@
+build:
+  version: "1.0"
+accounts:
+  message: "Welcome to CelikBank Accounts Service - Production Environment"
+  contactDetails:
+    name: "Elif Celik - Product Owner"
+    email: "elif@celikbank.com"
+  onCallSupport:
+    -(525) 979-8387
+    -(540) 171-8387
